@@ -1,0 +1,14 @@
+rm -f nbody
+g++ -O2 -std=c++17 -Wall -Wextra -pedantic -o nbody nbody.cpp
+Solar (N=10):
+real 1.95
+user 1.94
+sys 0.00
+N=100:
+real 0.35
+user 0.35
+sys 0.00
+N=1000 (calibration 200 steps):
+real 0.72
+user 0.71
+sys 0.00
